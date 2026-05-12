@@ -1,0 +1,49 @@
+<!-- Student Object -->
+<Students>
+    <student>
+        <FirstName>Vinod P</FirstName>
+        <DOB>1999-01-01</DOB>
+        <Email>vinodp@gmail.com</Email>
+        <!-- <Address>123 Hanuman Appartments Tirupati, </Address> -->
+        <!-- <Address>
+            <FlatNumber>123</FlatNumber>
+            <Street>Hanuman Appartments</Street>
+            <City>Tirupati</City>
+        </Address> -->
+        <Addresses>
+            <PermAddress>
+                <FlatNumber>123</FlatNumber>
+                <Street>Hanuman Appartments</Street>
+                <City>Tirupati</City>
+            </PermAddress>
+            <CurrentAddress>
+                <FlatNumber>123</FlatNumber>
+                <Street>Hanuman Appartments</Street>
+                <City>Tirupati</City>
+            </CurrentAddress>
+        </Addresses>
+    </student>
+    <student>
+        <FirstName>Rama</FirstName>
+        <DOB>1999-01-01</DOB>
+        <Email>vinodp@gmail.com</Email>
+        <!-- <Address>123 Hanuman Appartments Tirupati, </Address> -->
+        <!-- <Address>
+            <FlatNumber>123</FlatNumber>
+            <Street>Hanuman Appartments</Street>
+            <City>Tirupati</City>
+        </Address> -->
+        <Addresses>
+            <PermAddress>
+                <FlatNumber>123</FlatNumber>
+                <Street>Hanuman Appartments</Street>
+                <City>Tirupati</City>
+            </PermAddress>
+            <CurrentAddress>
+                <FlatNumber>123</FlatNumber>
+                <Street>Hanuman Appartments</Street>
+                <City>Tirupati</City>
+            </CurrentAddress>
+        </Addresses>
+    </student>
+</Students>

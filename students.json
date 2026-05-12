@@ -1,0 +1,52 @@
+{
+    "students": [
+        {
+            "firstName": "Rama",
+            "dob": "1992-12-25",
+            "addresses": [
+                {
+                    "type": "perm",
+                    "flatNumber": 123,
+                    "street": "Hanuman Street",
+                    "city": "Tirupati"
+                },
+                {
+                    "type": "current",
+                    "flatNumber": 123,
+                    "street": "Hanuman Street",
+                    "city": "Tirupati"
+                }
+            ],
+            "skills": [
+                "Python",
+                "JavaScript",
+                "devops",
+                "cloud"
+            ]
+        },
+        {
+            "firstName": "Krishna",
+            "dob": "1992-12-26",
+            "addresses": [
+                {
+                    "type": "perm",
+                    "flatNumber": 123,
+                    "street": "Hanuman Street",
+                    "city": "Tirupati"
+                },
+                {
+                    "type": "current",
+                    "flatNumber": 123,
+                    "street": "Hanuman Street",
+                    "city": "Tirupati"
+                }
+            ],
+            "skills": [
+                "Python",
+                "JavaScript",
+                "devops",
+                "cloud"
+            ]
+        }
+    ]
+}
