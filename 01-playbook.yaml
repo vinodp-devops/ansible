@@ -2,4 +2,6 @@
   hosts: web
   tasks:
   - name: Ping the webserver
-    ansible.builtin.ping:
+    ansible.builtin.ping: 
+
+# ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 01-playbook.yaml
