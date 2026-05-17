@@ -1,0 +1,13 @@
+# Access File Variables
+# ansible-playbook -i inventory.ini  06-file-vars.yaml
+- name: Play Level Variables
+  hosts: local
+  connection: local
+  vars:
+  - course.yaml
+  tasks:
+  - name: Print Variables
+    vars:
+      COURSE: Ansible
+    ansible.builtin.debug:
+      msg: "Course is: {{ COURSE }}, Trainer is: {{ TRAINER }}, "
