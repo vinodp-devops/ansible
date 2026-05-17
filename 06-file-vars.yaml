@@ -4,7 +4,7 @@
   hosts: local
   connection: local
   vars:
-  - course.yaml
+    course.yaml
   tasks:
   - name: Print Variables
     vars:
