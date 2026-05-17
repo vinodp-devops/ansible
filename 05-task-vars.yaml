@@ -10,7 +10,8 @@
     TRAINER: "Siva Kumar Anna"
   tasks:
   - name: Print Variables
-    COURSE: Ansible
+    vars:
+      COURSE: Ansible
     ansible.builtin.debug:
       msg: "Course is: {{ COURSE }}, Trainer is: {{ TRAINER }}, "
 
