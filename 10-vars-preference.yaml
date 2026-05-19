@@ -12,7 +12,17 @@
     private: false
   tasks:
   - name: print name
-    vars:
-      NAME: "Ansible from TASK"
+    # vars:
+    #   NAME: "Ansible from TASK"
     ansible.builtin.debug:
       msg: "Hi {{ NAME }}"
+
+# ansible-playbook -i inventory.ini -e 'NAME="Ansible from ARGS"' 10-vars-preference.yaml
+# ansible-playbook -i inventory.ini 10-vars-preference.yaml
+# 
+
+# Variable Preferences:
+# =======================
+# 1. Args
+# 2. Task
+# 3.  
