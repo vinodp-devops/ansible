@@ -1,7 +1,7 @@
 # Variables
 # Local no need username and password
-# ansible-playbook -i inventory.ini  04-vars.yaml
-- name: Play Level Variables
+# ansible-playbook -i inventory.ini  05-task-vars.yaml
+- name: Task Level Variables
   hosts: local
   connection: local # No need to provide username & password
   vars: 

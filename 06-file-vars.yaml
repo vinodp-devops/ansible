@@ -1,6 +1,6 @@
 # Access File Variables
 # ansible-playbook -i inventory.ini  06-file-vars.yaml
-- name: Play Level Variables
+- name: File Level Variables
   hosts: local
   connection: local
   vars_files:
