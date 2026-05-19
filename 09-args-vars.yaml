@@ -1,3 +1,5 @@
+# Argument Level Variable
+# ansible-playbook -i inventory.ini -e Name=VinodP 09-args-vars.yaml
 - name: Args Level Variables
   hosts: local
   connection: local
