@@ -14,7 +14,7 @@
     - Ansible
   tasks:
   - name: "print variables"
-  anisible.builtin.msg:
+    anisible.builtin.msg:
     msg: |
       program: "{{ PROGRAM }}"
       duration: "{{ DURATION }}"
