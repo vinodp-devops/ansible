@@ -14,10 +14,10 @@
     - Ansible
   tasks:
   - name: "print variables"
-    anisible.builtin.msg:
-    msg: |
-      program: "{{ PROGRAM }}"
-      duration: "{{ DURATION }}"
-      islive ?: "{{ IS_LIVE }}"
-      details: "{{ DETAILS }}"
-      topics: "{{ TOPICS }}"
+    anisible.builtin.debug:
+      msg: |
+        program: "{{ PROGRAM }}"
+        duration: "{{ DURATION }}"
+        islive ?: "{{ IS_LIVE }}"
+        details: "{{ DETAILS }}"
+        topics: "{{ TOPICS }}"
