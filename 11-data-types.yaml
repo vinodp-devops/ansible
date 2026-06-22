@@ -1,6 +1,6 @@
 - name: demo on data types
   hosts: local
-  connecion: local
+  connection: local
   vars:
     PROGRAM: "DevSecOps with AWS" # String
     DURATION: 140 # int/number
@@ -14,7 +14,7 @@
     - Ansible
   tasks:
   - name: "print variables"
-    anisible.builtin.debug:
+    ansible.builtin.debug:
       msg: |
         program: "{{ PROGRAM }}"
         duration: "{{ DURATION }}"
