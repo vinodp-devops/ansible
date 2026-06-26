@@ -1,6 +1,7 @@
 - name: Install Packages
   hosts: local
   connection: local
+  become: yes # Root User
   tasks:
   - name: Install packages
     ansible.builtin.package:
