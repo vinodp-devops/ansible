@@ -5,4 +5,15 @@
   - name: print facts
     ansible.builtin.debug:
       msg: "{{ ansible_facts }}"
+
+  - name: Check RedHat or not
+    ansible.builtin.debug:
+      msg: "Yes, package mannager is RedHat"
+    when: ansible_facts.os_family == "RedHat"
+
+  - name: Check Debian or Not
+    ansible.builtin.debug:
+      msg: "Yes, it is Debian OS"
+    when: ansible_facts.os_family == "Debian"
+    
     
