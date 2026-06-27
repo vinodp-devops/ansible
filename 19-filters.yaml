@@ -3,7 +3,7 @@
   connection: local
   vars:
     topics: "linux, shell, ansible, terraform"
-    courses:
+    tagList:
       name: "ansible"
       project: "roboshop"
       component: "catalogue"
