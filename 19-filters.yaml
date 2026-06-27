@@ -46,3 +46,8 @@
   - name: Convert YAML to JSON
     ansible.builtin.debug:
       msg: "{{ student_yaml | to_nice_json }}" 
+
+
+  - name: Read YAML and Convert to JSON
+    ansible.builtin.debug:
+      msg: "{{ lookup('file', 'students.yml') | from_yaml | to_json }}" 
