@@ -2,6 +2,6 @@
   hosts: local
   connection: local
   tasks: 
-  - name: Greeting
+  - name: Greetings
     ansible.bulitin.debug:
       msg: "Hi, Vinod {{ greets | default('How Are You?') }}"
