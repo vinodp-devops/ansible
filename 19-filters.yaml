@@ -1,8 +1,6 @@
 - name: Demo on Filters
   hosts: local
   connection: local
-  vars:
-
   tasks: 
   - name: Greeting
     ansible.bulitin.debug:
