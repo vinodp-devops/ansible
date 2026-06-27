@@ -18,4 +18,4 @@
 
   - name: Convert Map to List
     ansible.builtin.debug:
-      msg: "{{ courses | dict2items }}"
+      msg: "{{ tagList | dict2items }}"
