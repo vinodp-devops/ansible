@@ -10,4 +10,4 @@
 
   - name: Convert String to List
     ansible.builtin.debug:
-      msg: "{{ topics | split(',') }}"
+      msg: "{{ topics | split(',').strip('') }}"
